@@ -6,7 +6,7 @@ import {
 } from 'react-icons/ai';
 import { SiTwitter } from 'react-icons/si';
 import { CgDribbble } from 'react-icons/cg';
-import { RiPhoneFill, RiMailFill } from 'react-icons/ri';
+import { RiPhoneFill, RiMailFill, RiDiscordFill } from 'react-icons/ri';
 import { Fragment } from 'react';
 import {
   FaBehanceSquare,
@@ -280,6 +280,13 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   title="Email:"
                   value={social.email}
                   link={`mailto:${social.email}`}
+                />
+              )}
+              {social?.discord && (
+                <ListItem
+                  icon={<RiDiscordFill />}
+                  title="Discord:"
+                  value={social.discord}
                 />
               )}
             </Fragment>

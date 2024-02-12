@@ -186,6 +186,11 @@ interface Social {
    * Email
    */
   email?: string;
+
+  /**
+   * Discord
+   */
+  discord?: string;
 }
 
 interface Resume {
