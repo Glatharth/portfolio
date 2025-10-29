@@ -112,7 +112,8 @@ const CONFIG = {
     email: '',
   },
   resume: {
-    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl:
+      'https://github.com/Glatharth/portfolio/blob/main/public/resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Golang',
